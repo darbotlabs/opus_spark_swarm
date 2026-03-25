@@ -1,0 +1,913 @@
+[
+  {
+    "file": "dayour-activity.md",
+    "name": "dayour-activity",
+    "description": "DAYOURBOT Activity \u2014 Activity protocol specialist: Activity schema, TurnContext, activity types, channel adapters, M365 Agents SDK, Copilot Studio, and cross-channel agent communication",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'",
+      "es-chat"
+    ],
+    "lines": 960,
+    "section_count": 20
+  },
+  {
+    "file": "dayour-ado.md",
+    "name": "dayour-ado",
+    "description": "DAYOURBOT ADO \u2014 Azure DevOps specialist: boards, repos, pipelines, artifacts, wiki, test plans, ADO administration, cross-organization navigation, and the Microsoft internal ADO landscape",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "kusto",
+      "workiq"
+    ],
+    "lines": 624,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-ag2.md",
+    "name": "dayour-ag2",
+    "description": "DAYOURBOT AG2 \u2014 AutoGen/AG2 multi-agent framework specialist: conversable agents, group chat, tool use, code execution, nested agents, human-in-the-loop, and advanced orchestration patterns",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq"
+    ],
+    "lines": 160,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-agentbuilder.md",
+    "name": "dayour-agentbuilder",
+    "description": "DAYOURBOT AgentBuilder \u2014 expert agent architect across the Microsoft ecosystem: Copilot Studio, Semantic Kernel, AutoGen/AG2, Azure AI Foundry, M365 Agents Toolkit, Power Platform, Teams, and multi-agent orchestration",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'",
+      "bluebird"
+    ],
+    "lines": 392,
+    "section_count": 11
+  },
+  {
+    "file": "dayour-amica.md",
+    "name": "dayour-amica",
+    "description": "DAYOURBOT Amica customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 160,
+    "section_count": 11
+  },
+  {
+    "file": "dayour-analyst.md",
+    "name": "dayour-analyst",
+    "description": "DAYOURBOT Analyst \u2014 M365 analyst agent: usage analytics, adoption metrics, license optimization, tenant health scoring, compliance posture analysis, and executive reporting",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto",
+      "es-chat",
+      "ado --organization powercatteam"
+    ],
+    "lines": 190,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-analytics.md",
+    "name": "dayour-analytics",
+    "description": "DAYOURBOT Analytics \u2014 quantitative analysis agent: statistical modeling, dashboards, KPI pipelines, Power BI integration, A/B testing, forecasting, and metrics engineering",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto",
+      "ado --organization powercatteam"
+    ],
+    "lines": 153,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-architect.md",
+    "name": "dayour-architect",
+    "description": "DAYOURBOT Architect \u2014 system design, ADRs, scalability, and integration analysis sub-agent",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'",
+      "security-context"
+    ],
+    "lines": 224,
+    "section_count": 15
+  },
+  {
+    "file": "dayour-azure.md",
+    "name": "dayour-azure",
+    "description": "DAYOURBOT Azure \u2014 Azure platform specialist: infrastructure, AI/ML, DevOps, security, cost optimization, and cloud-native architecture",
+    "model": "gpt-5.4",
+    "mcps": [
+      "ado --organization powercatteam",
+      "kusto",
+      "msft-learn",
+      "security-context"
+    ],
+    "lines": 254,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-bat.md",
+    "name": "dayour-bat",
+    "description": "DAYOURBOT BAT \u2014 Build Advise Toolkit team: agent tooling, SDKs, templates, accelerators, and engineering IP",
+    "model": "gpt-5.4",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 379,
+    "section_count": 19
+  },
+  {
+    "file": "dayour-cape.md",
+    "name": "dayour-cape",
+    "description": "DAYOURBOT CAPE \u2014 Copilot Agent Platform Ecosystem org-level strategy, planning, and cross-team intelligence agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "es-chat",
+      "msft-learn"
+    ],
+    "lines": 260,
+    "section_count": 15
+  },
+  {
+    "file": "dayour-cat.md",
+    "name": "dayour-cat",
+    "description": "DAYOURBOT CAT \u2014 Customer Acceleration Team: Copilot Studio CAT program, advisory engagements, FastTrack, and customer success",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "es-chat",
+      "msft-learn"
+    ],
+    "lines": 304,
+    "section_count": 17
+  },
+  {
+    "file": "dayour-cdw.md",
+    "name": "dayour-cdw",
+    "description": "DAYOURBOT CDW customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 218,
+    "section_count": 14
+  },
+  {
+    "file": "dayour-citi.md",
+    "name": "dayour-citi",
+    "description": "DAYOURBOT Citi customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 100,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-copilot.md",
+    "name": "dayour-copilot",
+    "description": "DAYOURBOT Copilot \u2014 Microsoft Copilot specialist: M365 Copilot, Copilot extensibility, declarative agents, API plugins, Graph connectors, Copilot analytics, Copilot Studio orchestration, and adoption strategy",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "bluebird",
+      "es-chat",
+      "ado --organization powercatteam"
+    ],
+    "lines": 154,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-darbotlabs.md",
+    "name": "dayour-darbotlabs",
+    "description": "DAYOURBOT DarbotLabs \u2014 DarbotLabs R&D portfolio specialist: MCP servers, agent frameworks, LLM engines, Windows agents, open-source IP, and the darbotlabs GitHub ecosystem",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 355,
+    "section_count": 10
+  },
+  {
+    "file": "dayour-data-eng.md",
+    "name": "dayour-data-eng",
+    "description": "DAYOURBOT Data Engineering \u2014 data platform specialist: ingestion, ETL and ELT pipelines, lakehouse design, data contracts, lineage, data quality, and analytics-ready platform reliability",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "kusto"
+    ],
+    "lines": 71,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-dataverse.md",
+    "name": "dayour-dataverse",
+    "description": "DAYOURBOT Dataverse - Dataverse platform specialist: schema, security, plugins, OData/FetchXML, ALM, environment variables, and tenant data models",
+    "model": "gpt-5.4",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn",
+      "dataverse-mcp"
+    ],
+    "lines": 235,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-design.md",
+    "name": "dayour-design",
+    "description": "DAYOURBOT Design \u2014 UI/UX, visual system, and component design sub-agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 169,
+    "section_count": 12
+  },
+  {
+    "file": "dayour-dev.md",
+    "name": "dayour-dev",
+    "description": "DAYOURBOT Dev \u2014 developer productivity specialist: local environments, inner-loop efficiency, repo conventions, toolchains, scaffolding, automation, and engineering workflow ergonomics",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam"
+    ],
+    "lines": 77,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-dynamics.md",
+    "name": "dayour-dynamics",
+    "description": "DAYOURBOT Dynamics \u2014 Microsoft Dynamics 365 specialist: CE, ERP, model-driven apps, Dataverse customization, plugins, and business automation",
+    "model": "gpt-5.4",
+    "mcps": [
+      "ado --organization powercatteam",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 315,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-entra.md",
+    "name": "dayour-entra",
+    "description": "DAYOURBOT Entra \u2014 identity and access management specialist: Microsoft Entra ID, Conditional Access, PIM, identity governance, SSO, MFA, workload identities, and Zero Trust identity",
+    "model": "gpt-5.4",
+    "mcps": [
+      "security-context",
+      "msft-learn",
+      "ado --organization powercatteam"
+    ],
+    "lines": 232,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-evaluation.md",
+    "name": "dayour-evaluation",
+    "description": "DAYOURBOT Evaluation \u2014 Copilot Studio agent evaluation specialist: conversation scoring, topic coverage testing, generative AI grounding assessment, regression testing, eval frameworks, and quality gates",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "bluebird",
+      "ado --organization powercatteam"
+    ],
+    "lines": 162,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-fabric.md",
+    "name": "dayour-fabric",
+    "description": "DAYOURBOT Fabric \u2014 Microsoft Fabric specialist: OneLake, Lakehouse, data pipelines, Real-time Analytics, Power BI semantic models, and Spark/KQL notebooks",
+    "model": "gpt-5.4",
+    "mcps": [
+      "kusto",
+      "msft-learn",
+      "'ado --organization powercatteam'",
+      "workiq"
+    ],
+    "lines": 321,
+    "section_count": 10
+  },
+  {
+    "file": "dayour-finops.md",
+    "name": "dayour-finops",
+    "description": "DAYOURBOT FinOps \u2014 cloud cost governance specialist: budgeting, showback and chargeback, unit economics, optimization strategy, reservation planning, and cost-aware architecture decisions",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "kusto"
+    ],
+    "lines": 71,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-flashcard.md",
+    "name": "dayour-flashcard",
+    "description": "DAYOURBOT Flashcard \u2014 micro agent for flashcard lifecycle management: audit, create, update, enhance, refine, and semantically pre-index the knowledge flashcard library across the entire DAYOURBOT swarm",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 639,
+    "section_count": 12
+  },
+  {
+    "file": "dayour-foundry.md",
+    "name": "dayour-foundry",
+    "description": "DAYOURBOT Foundry \u2014 Microsoft Foundry (Azure AI Foundry) specialist: model catalog, RAG applications, knowledge indexes, AI agents, evaluation, prompt flow, RBAC, quotas, and MCP integration",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "kusto"
+    ],
+    "lines": 203,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-gap.md",
+    "name": "dayour-gap",
+    "description": "DAYOURBOT Gap customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 285,
+    "section_count": 18
+  },
+  {
+    "file": "dayour-github.md",
+    "name": "dayour-github",
+    "description": "DAYOURBOT GitHub \u2014 GitHub platform specialist: repositories, Actions, Copilot, Issues, PRs, Projects, Packages, Pages, security, GitHub API, and GitHub MCP integration",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam"
+    ],
+    "lines": 230,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-gitops.md",
+    "name": "dayour-gitops",
+    "description": "DAYOURBOT GitOps \u2014 GitOps specialist: Flux, ArgoCD, git-based infrastructure, Kubernetes GitOps, Azure DevOps pipelines, GitHub Actions, IaC automation, drift detection, and continuous delivery",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "ado --organization powercatteam",
+      "workiq"
+    ],
+    "lines": 230,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-graph.md",
+    "name": "dayour-graph",
+    "description": "DAYOURBOT Graph \u2014 Microsoft Graph API specialist: Graph REST/SDK, permissions model, change notifications, delta queries, batch requests, Graph connectors, Graph Data Connect, and cross-workload data access",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "es-chat"
+    ],
+    "lines": 200,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-hp.md",
+    "name": "dayour-hp",
+    "description": "DAYOURBOT HP customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 129,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-insights.md",
+    "name": "dayour-insights",
+    "description": "DAYOURBOT Insights \u2014 actionable intelligence agent: trend detection, anomaly identification, cross-signal correlation, pattern recognition, executive briefing synthesis, and strategic recommendations",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto",
+      "ado --organization powercatteam"
+    ],
+    "lines": 146,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-integration.md",
+    "name": "dayour-integration",
+    "description": "DAYOURBOT Integration \u2014 enterprise integration specialist: API strategy, event-driven architecture, SaaS connectors, middleware, identity brokering, and resilient system interoperability",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "security-context"
+    ],
+    "lines": 71,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-intune.md",
+    "name": "dayour-intune",
+    "description": "DAYOURBOT Intune \u2014 endpoint management specialist: Microsoft Intune, MDM, MAM, device compliance, Autopilot, configuration profiles, app deployment, endpoint security, and Windows management",
+    "model": "gpt-5.4",
+    "mcps": [
+      "security-context",
+      "msft-learn",
+      "kusto",
+      "ado --organization powercatteam"
+    ],
+    "lines": 217,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-jupyter.md",
+    "name": "dayour-jupyter",
+    "description": "DAYOURBOT Jupyter \u2014 Jupyter notebook specialist: JupyterHub, kernels, extensions, nbconvert, Fabric notebooks, VS Code notebooks, Polyglot notebooks, and interactive computing",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto"
+    ],
+    "lines": 256,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-labs.md",
+    "name": "dayour-labs",
+    "description": "DAYOURBOT Labs \u2014 CopilotStudioTraining environment expert: labs, steps, UI, best practices, automation, and environment management",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 372,
+    "section_count": 14
+  },
+  {
+    "file": "dayour-links.md",
+    "name": "dayour-links",
+    "description": "DAYOURBOT Links \u2014 centralized link library, URL inventory, semantic link graph, and cross-agent reference authority for the DAYOURBOT swarm",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'",
+      "playwright-mcp"
+    ],
+    "lines": 546,
+    "section_count": 13
+  },
+  {
+    "file": "dayour-m365.md",
+    "name": "dayour-m365",
+    "description": "DAYOURBOT M365 \u2014 Microsoft 365 specialist: Graph API, Entra ID, M365 Copilot extensibility, Exchange, licensing, admin center, compliance, and cross-workload integration",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "es-chat"
+    ],
+    "lines": 202,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-mainline.md",
+    "name": "dayour-mainline",
+    "description": "DAYOURBOT Mainline \u2014 Teams Mainline Attendant specialist: private preview, customer deep dives, product integration, and agent discovery",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 224,
+    "section_count": 12
+  },
+  {
+    "file": "dayour-markdown.md",
+    "name": "dayour-markdown",
+    "description": "DAYOURBOT Markdown \u2014 Markdown and GitHub Flavored Markdown specialist: syntax, extensions, Mermaid diagrams, MDX, linting, documentation best practices, and content authoring",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq"
+    ],
+    "lines": 225,
+    "section_count": 10
+  },
+  {
+    "file": "dayour-mcp.md",
+    "name": "dayour-mcp",
+    "description": "DAYOURBOT MCP \u2014 MCP selection, semantic routing, and multi-tool workflow orchestration for the DAYOURBOT swarm",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'",
+      "azure-mcp",
+      "foundry-mcp",
+      "github-mcp",
+      "playwright-mcp",
+      "fabric-mcp",
+      "mssql-mcp"
+    ],
+    "lines": 1607,
+    "section_count": 16
+  },
+  {
+    "file": "dayour-mlads.md",
+    "name": "dayour-mlads",
+    "description": "DAYOURBOT MLADS \u2014 Machine Learning, AI, and Data Science specialist: model training, MLOps, feature engineering, experiment tracking, statistical analysis, responsible AI, and Azure ML",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto",
+      "ado --organization powercatteam"
+    ],
+    "lines": 208,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-network.md",
+    "name": "dayour-network",
+    "description": "DAYOURBOT Network \u2014 networking specialist: Azure networking, VNets, NSGs, firewalls, DNS, load balancers, ExpressRoute, VPN, Private Link, network security, and hybrid connectivity",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "ado --organization powercatteam",
+      "security-context",
+      "kusto"
+    ],
+    "lines": 194,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-notes.md",
+    "name": "dayour-notes",
+    "description": "DAYOURBOT Notes \u2014 raw note ingestion, distillation, and Wiki publishing sub-agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 392,
+    "section_count": 15
+  },
+  {
+    "file": "dayour-onedrive.md",
+    "name": "dayour-onedrive",
+    "description": "DAYOURBOT OneDrive \u2014 OneDrive specialist for personal and business: sync, sharing, Graph API, storage management, Known Folder Move, admin policies, and cross-platform integration",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 251,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-pmo.md",
+    "name": "dayour-pmo",
+    "description": "DAYOURBOT PMO \u2014 program management specialist: dependency planning, RAID tracking, release orchestration, stakeholder alignment, delivery governance, and execution reporting",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "ado --organization powercatteam",
+      "msft-learn"
+    ],
+    "lines": 69,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-pplat.md",
+    "name": "dayour-pplat",
+    "description": "DAYOURBOT PPLat \u2014 Power Platform specialist: canvas apps, Power Automate, Power Pages, Dataverse, connectors, ALM, governance, and CoE",
+    "model": "gpt-5.4",
+    "mcps": [
+      "ado --organization powercatteam",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 337,
+    "section_count": 9
+  },
+  {
+    "file": "dayour-ppt.md",
+    "name": "dayour-ppt",
+    "description": "DAYOURBOT PPT \u2014 executive presentation, deck structure, and stakeholder narrative sub-agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 134,
+    "section_count": 11
+  },
+  {
+    "file": "dayour-purview.md",
+    "name": "dayour-purview",
+    "description": "DAYOURBOT Purview \u2014 Microsoft Purview specialist: data governance, compliance, information protection, DLP, insider risk, eDiscovery, and audit",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "security-context",
+      "ado --organization powercatteam"
+    ],
+    "lines": 200,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-qa.md",
+    "name": "dayour-qa",
+    "description": "DAYOURBOT QA \u2014 release quality specialist: release pipeline synthesis, quality gate orchestration, evidence aggregation, environment promotion readiness, and cross-stage validation governance",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "bluebird"
+    ],
+    "lines": 70,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-researcher.md",
+    "name": "dayour-researcher",
+    "description": "DAYOURBOT Researcher \u2014 M365 researcher agent: deep research, competitive analysis, feature discovery, documentation mining, roadmap tracking, tech landscape scanning, and evidence synthesis",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "kusto",
+      "es-chat",
+      "ado --organization powercatteam"
+    ],
+    "lines": 158,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-sbx.md",
+    "name": "dayour-sbx",
+    "description": "DAYOURBOT Starbucks customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 266,
+    "section_count": 16
+  },
+  {
+    "file": "dayour-security.md",
+    "name": "dayour-security",
+    "description": "DAYOURBOT Security \u2014 security specialist: threat modeling, Zero Trust architecture, security posture management, vulnerability analysis, Microsoft Defender, Sentinel, security operations, and compliance alignment",
+    "model": "gpt-5.4",
+    "mcps": [
+      "security-context",
+      "msft-learn",
+      "ado --organization powercatteam",
+      "kusto"
+    ],
+    "lines": 241,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-sharepoint.md",
+    "name": "dayour-sharepoint",
+    "description": "DAYOURBOT SharePoint \u2014 SharePoint Online specialist: site architecture, lists, libraries, SPFx, PnP, search, content types, information architecture, SharePoint agents, and Graph integration",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 252,
+    "section_count": 8
+  },
+  {
+    "file": "dayour-sre.md",
+    "name": "dayour-sre",
+    "description": "DAYOURBOT SRE \u2014 site reliability engineering specialist: SLOs and SLIs, observability, incident response, capacity planning, resilience engineering, and production operations",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "kusto",
+      "security-context"
+    ],
+    "lines": 71,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-studio.md",
+    "name": "dayour-studio",
+    "description": "DAYOURBOT Studio \u2014 Copilot Studio specialist: agent design, topics, actions, MCP integration, channels, generative AI orchestration, and quality testing",
+    "model": "gpt-5.4",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "bluebird",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 1032,
+    "section_count": 20
+  },
+  {
+    "file": "dayour-swarm.md",
+    "name": "dayour-swarm",
+    "description": "DAYOURBOT Swarm \u2014 multi-agent swarm orchestration specialist: fleet coordination, task decomposition, consensus protocols, agent routing, observability, and emergent behavior patterns",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 651,
+    "section_count": 16
+  },
+  {
+    "file": "dayour-swe.md",
+    "name": "dayour-swe",
+    "description": "DAYOURBOT SWE \u2014 software engineering analysis, implementation, and code review sub-agent",
+    "model": "gpt-5.4",
+    "mcps": [
+      "workiq",
+      "msft-learn",
+      "'ado --organization powercatteam'",
+      "kusto",
+      "security-context"
+    ],
+    "lines": 244,
+    "section_count": 12
+  },
+  {
+    "file": "dayour-teams.md",
+    "name": "dayour-teams",
+    "description": "DAYOURBOT Teams \u2014 Microsoft Teams specialist: Teams apps, agents, messaging extensions, bots, tabs, environments, admin policies, Teams Toolkit, M365 Agents Toolkit, and Teams AI Library",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'",
+      "es-chat"
+    ],
+    "lines": 184,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-test.md",
+    "name": "dayour-test",
+    "description": "DAYOURBOT Test \u2014 test engineering specialist: test strategy, automated suites, contract testing, performance validation, flaky-test reduction, and release-confidence engineering",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam",
+      "kusto"
+    ],
+    "lines": 71,
+    "section_count": 5
+  },
+  {
+    "file": "dayour-viva.md",
+    "name": "dayour-viva",
+    "description": "DAYOURBOT Viva \u2014 employee experience specialist: Viva Engage, Viva Learning, Viva Insights, Viva Connections, Viva Amplify, Viva Pulse, Viva Glint, and goals workflow transition guidance",
+    "model": "gpt-5.4",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "ado --organization powercatteam"
+    ],
+    "lines": 235,
+    "section_count": 7
+  },
+  {
+    "file": "dayour-vlib.md",
+    "name": "dayour-vlib",
+    "description": "DAYOURBOT VLib \u2014 video library specialist: Stream, recording management, ffmpeg, transcoding, chunking, semantic indexing, content extraction, and remix",
+    "model": "claude-opus-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 328,
+    "section_count": 10
+  },
+  {
+    "file": "dayour-word.md",
+    "name": "dayour-word",
+    "description": "DAYOURBOT Word \u2014 technical documentation, runbooks, specs, and policy docs sub-agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 150,
+    "section_count": 27
+  },
+  {
+    "file": "dayour-wynn.md",
+    "name": "dayour-wynn",
+    "description": "DAYOURBOT Wynn Resorts customer engagement agent",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "workiq",
+      "msft-learn"
+    ],
+    "lines": 185,
+    "section_count": 14
+  },
+  {
+    "file": "dayour.md",
+    "name": "dayour",
+    "description": "DAYOURBOT autonomous machine learning digital twin",
+    "model": "claude-sonnet-4.6",
+    "mcps": [
+      "'ado --organization powercatteam'",
+      "'bluebird-powercatteam: bluebird --organization powercatteam'",
+      "'bluebird-domoreexp: bluebird --organization domoreexp --project MSTeams'",
+      "'ado-domoreexp: ado --organization domoreexp'",
+      "icm",
+      "workiq",
+      "es-chat",
+      "msft-learn"
+    ],
+    "lines": 646,
+    "section_count": 17
+  },
+  {
+    "file": "dayswarm.md",
+    "name": "dayswarm",
+    "description": "DAYSWARM \u2014 broadcast-gather-synthesize meta-agent: runs every prompt through ALL DAYOURBOT agents in parallel, then observes, grades, orchestrates, validates, improves, and refines the full fleet output",
+    "model": "claude-opus-4.6",
+    "mcps": [
+      "msft-learn",
+      "workiq",
+      "'ado --organization powercatteam'"
+    ],
+    "lines": 725,
+    "section_count": 12
+  }
+]
